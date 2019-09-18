@@ -1,9 +1,12 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Usuario {
 	private String nome;
 	private String email;
 	private String senha;
+	public ArrayList<Telefone> telefones;
 	
 	//Get and Set
 	public String getNome() {
