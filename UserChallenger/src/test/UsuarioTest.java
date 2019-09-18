@@ -22,5 +22,12 @@ class UsuarioTest {
 		novo_usuario.setNome("Pedro");
 		assertEquals(novo_usuario.getNome(), "Pedro");
 	}
+	
+	@Test
+	void test_alterar_senha_usuario() {
+		Usuario novo_usuario = new Usuario();
+		novo_usuario.setSenha("0123456");
+		assertEquals(novo_usuario.getSenha(), "0123456");
+	}
 
 }
