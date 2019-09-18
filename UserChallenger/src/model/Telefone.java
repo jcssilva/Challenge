@@ -6,6 +6,7 @@ public class Telefone {
 	private String numero;
 	private String tipo;
 
+		
 	public int getddd() {		
 		return ddd;
 	}
@@ -18,7 +19,7 @@ public class Telefone {
 		this.numero = numero;
 	}
 
-	public Object getNumero() {
+	public String getNumero() {
 		return numero;
 	}
 
@@ -26,7 +27,7 @@ public class Telefone {
 		this.tipo = tipo;
 	}
 
-	public Object getTipo() {
+	public String getTipo() {
 		return tipo;
 	}
 	
