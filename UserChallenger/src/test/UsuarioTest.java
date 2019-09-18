@@ -15,5 +15,12 @@ class UsuarioTest {
 		Usuario novo_usuario = new Usuario();
 		assertThat(novo_usuario, instanceOf(Usuario.class));
 	}
+	
+	@Test
+	void test_alterar_nome_usuario() {
+		Usuario novo_usuario = new Usuario();
+		novo_usuario.setNome("Pedro");
+		assertEquals(novo_usuario.getNome(), "Pedro");
+	}
 
 }
