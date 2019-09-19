@@ -35,10 +35,17 @@ class UsuarioTest {
 	}
 	
 	@Test 
-	public void test_lista_de_telefone_vazia_usuario() { 
+	public void test_adicionar_telefone_a_lista_de_telefones_usuario() { 
+	    Usuario novo_usuario = new Usuario();
+	    Telefone celular = new Telefone();
 	    
+	    celular.setddd(81);
+	    celular.setNumero("9999-9999");
+	    celular.setTipo("Celular");
 	    
-	    assertFalse(false);
+	    novo_usuario.telefones.add(celular);	    
+	    
+	    assertFalse(novo_usuario.telefones.isEmpty());
 	    
 	  
 	  }

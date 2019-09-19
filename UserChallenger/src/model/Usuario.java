@@ -6,7 +6,7 @@ public class Usuario {
 	private String nome;
 	private String email;
 	private String senha;
-	public ArrayList<Telefone> telefones;
+	public ArrayList<Telefone> telefones = new ArrayList<>();
 	
 	//Get and Set
 	public String getNome() {
