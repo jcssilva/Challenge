@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>jQuery, Ajax and Servlet/JSP integration example</title>
+<title>Bem-Vindo</title>
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"
 	type="text/javascript"></script>
@@ -19,7 +19,9 @@
 	<br>
 	<br>
 
-	<strong>Ajax Response</strong>:
-	<div id="ajaxGetUserServletResponse"></div>
+	
+	<div id="ajaxGetUserServletResponse">
+		<strong>Ajax Response</strong>:
+	</div>
 </body>
 </html>
