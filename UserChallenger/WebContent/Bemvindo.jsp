@@ -19,9 +19,7 @@
 	<br>
 	<br>
 
-	
-	<div id="ajaxGetUserServletResponse">
-		<strong>Ajax Response</strong>:
-	</div>
+	<strong>Ajax Response</strong>:
+	<div id="ajaxGetUserServletResponse"></div>
 </body>
 </html>
