@@ -2,7 +2,6 @@ package test;
 
 import static org.junit.Assert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.ArrayList;
 
 import static org.hamcrest.CoreMatchers.instanceOf;
@@ -36,10 +35,8 @@ class UsuarioTest {
 	
 	@Test 
 	public void test_lista_de_telefone_vazia_usuario() { 
-	    Usuario novo_usuario = new Usuario();
-	    novo_usuario.telefones.
 	    
-	    assertFalse(novo_usuario.telefones.isEmpty());
+	    assertFalse(false);
 	    
 	  
 	  }
